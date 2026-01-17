@@ -50,29 +50,29 @@ export default function Home() {
                 Zeena Myloves
               </h1>
               <p className="text-lg text-muted-foreground mt-1 font-medium">
-                Frontend Developer
+                UI/UX Designer
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-              Building high-performance digital products across <span className="text-foreground font-medium">web, mobile, and decentralized platforms</span>. 
-              Translating complex requirements into seamless user experiences.
+            Currently pursuing my IT degree at the University of Pangasinan, I find my passion at the intersection of <span className="text-foreground font-medium">development and design</span>. I’ve developed a keen eye for <span className="text-foreground font-medium">UI/UX design</span>, aiming to build digital solutions that feel seamless to the end-user. 
+            I enjoy the process of turning a design concept into a working product, and while I’m always striving to improve my technical skills.
             </p>
             
             {/* Social Mini-Links */}
             <div className="flex gap-4 pt-2">
-              <a href="mailto:ramosdalrymple@gmail.com" className="inline-flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtswLwPwFlbRcwMgFmHCQSFNxXQRSWhcPcCQcTnPQDLtVbTCPSNKSFkdVSxDdpHdzmzbPv" className="inline-flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors">
                 <Mail className="h-4 w-4" /> Email Me
               </a>
-              <Link href="https://github.com/ramosdalrymple-afk" target="_blank" className="inline-flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://github.com/zeendc" target="_blank" className="inline-flex items-center gap-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors">
                 <Github className="h-4 w-4" /> GitHub
               </Link>
             </div>
           </div>
 
-          <div className="relative h-24 w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-full border-2 border-border bg-muted shadow-sm">
+          <div className="relative h-25 w-25 md:h-35 md:w-35 shrink-0 overflow-hidden rounded-full border-2 border-border bg-muted shadow-sm">
             <Image 
-              src="/witwi.jpg" 
-              alt="Dalrymple Ramos" 
+              src="/zzz.png" 
+              alt="Zeena Dela Cruz-Ramos" 
               fill
               className="object-cover"
               priority
@@ -84,7 +84,7 @@ export default function Home() {
         <section className="space-y-6">
           <div className="flex items-center gap-2 text-foreground font-semibold text-lg">
             <Layers className="h-4 w-4" />
-            <h2>Selected Work</h2>
+            <h2>Featured Projects</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

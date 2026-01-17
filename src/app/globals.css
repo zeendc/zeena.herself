@@ -34,10 +34,14 @@
 }
 
 :root {
-  --background: 0 0% 100%;
+  /* Main Background: #F9F8F6 */
+  --background: 40 10% 97%; 
   --foreground: 240 10% 3.9%;
+  
+  /* Light Mode Cards: Pure white or slightly off-white */
   --card: 0 0% 100%;
   --card-foreground: 240 10% 3.9%;
+  
   --popover: 0 0% 100%;
   --popover-foreground: 240 10% 3.9%;
   --primary: 240 5.9% 10%;
@@ -53,29 +57,38 @@
   --border: 240 5.9% 90%;
   --input: 240 5.9% 90%;
   --ring: 240 10% 3.9%;
-  --radius: 0.5rem;
+  --radius: 0.8rem; /* Slightly rounder for a modern bento feel */
 }
 
 .dark {
-  --background: 240 10% 3.9%;
+  /* Main Background: #313131 */
+  --background: 0 0% 19%;
   --foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
+  
+  /* Bento Grid Cards: #414141 */
+  --card: 0 0% 25%;
   --card-foreground: 0 0% 98%;
-  --popover: 240 10% 3.9%;
+  
+  --popover: 0 0% 25%;
   --popover-foreground: 0 0% 98%;
   --primary: 0 0% 98%;
   --primary-foreground: 240 5.9% 10%;
-  --secondary: 240 3.7% 15.9%;
+  --secondary: 0 0% 30%;
   --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 240 3.7% 15.9%;
+  
+  /* Muted elements & Tags: Slightly lighter than the card */
+  --muted: 0 0% 32%;
+  --muted-foreground: 0 0% 65%;
+  
+  --accent: 0 0% 30%;
   --accent-foreground: 0 0% 98%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  
+  /* Border: Subtle contrast against the #313131 background */
+  --border: 0 0% 30%;
+  --input: 0 0% 30%;
+  --ring: 0 0% 83.9%;
 }
 
 @layer base {
@@ -83,6 +96,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground transition-colors duration-300;
   }
 }

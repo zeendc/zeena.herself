@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/ui/Navbar";
 import { ThemeProvider } from "../components/ThemeProvider";
-import PortfolioChat from "../components/PortfolioChat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +34,6 @@ export default function RootLayout({
           </div>
 
           {/* AI Assistant - Floating Chatbot (Absolute Bottom Layer) */}
-          <PortfolioChat />
         </ThemeProvider>
       </body>
     </html>
