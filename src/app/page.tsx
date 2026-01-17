@@ -10,28 +10,28 @@ const PROJECTS = [
     title: "The Vault.",
     description: "Secure, end-to-end asset repository on Sui. Engineered for speed, providing a streamlined environment for tracking data.",
     tech: ["Sui Move", "NextJS", "TypeScript"],
-    link: "https://github.com/ramosdalrymple-afk/vault-sui-escrow.git",
+    link: "",
     featured: true, // Takes up 2 columns
   },
   {
     title: "Glitch Freak Marketplace",
     description: "Specialized NFT platform with genetic sequences and on-chain volatility attributes.",
     tech: ["Sui Move", "React", "Tailwind"],
-    link: "https://github.com/ramosdalrymple-afk/glitch-freak-nft-marketplace",
+    link: "",
     featured: false,
   },
   {
     title: "Beats Music",
     description: "Decentralized music ecosystem allowing artists to tokenize tracks as unique objects.",
     tech: ["Sui Move", "React", "TypeScript"],
-    link: "https://github.com/ramosdalrymple-afk/beats-music-nft-marketplace",
+    link: "",
     featured: false,
   },
   {
     title: "LinguaAR",
     description: "AR-based learning platform for Filipino Sign Language with real-time recognition.",
     tech: ["Flutter", "ML", "Python"],
-    link: "https://github.com/ramosdalrymple-afk/LinguaAR",
+    link: "",
     featured: true, // Takes up 2 columns
   },
 ];
