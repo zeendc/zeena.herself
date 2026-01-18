@@ -7,31 +7,31 @@ import { ArrowUpRight, Github, Mail, Layers, GraduationCap, Code2 } from "lucide
 // Updated Data
 const PROJECTS = [
   {
-    title: "The Vault.",
-    description: "Secure, end-to-end asset repository on Sui. Engineered for speed, providing a streamlined environment for tracking data.",
-    tech: ["Sui Move", "NextJS", "TypeScript"],
-    link: "",
+    title: "Web-Based Arduino Flood Monitoring System",
+    description: "Created a flood monitoring simulation for Dagupan City using IoT devices and built a prototype with the team to improve real-time flood monitoring and strengthen disaster preparedness for the resident of Dagupan City. ",
+    tech: ["Arduino IDE","Mern", "C++", "Tailwind"],
+    link: "https://github.com/Hyudz/RTN-Flood-Monitoring-System",
     featured: true, // Takes up 2 columns
   },
   {
-    title: "Glitch Freak Marketplace",
-    description: "Specialized NFT platform with genetic sequences and on-chain volatility attributes.",
-    tech: ["Sui Move", "React", "Tailwind"],
-    link: "",
+    title: "TransiRent",
+    description: "This application streamlines the process of finding, booking, and managing accommodations online, catering to both administrators and users. ",
+    tech: ["Blade", "JavaScript", "PHP", "Css"],
+    link: "https://github.com/zeendc",
     featured: false,
   },
   {
-    title: "Beats Music",
-    description: "Decentralized music ecosystem allowing artists to tokenize tracks as unique objects.",
-    tech: ["Sui Move", "React", "TypeScript"],
-    link: "",
+    title: "Upick-Up",
+    description: "This project aims to update students on the availability of modules, uniforms, and books at the University of Pangasinan. ",
+    tech: ["ReactJS", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    link: "https://github.com/jairasolis/U-Pick-Up-Website",
     featured: false,
   },
   {
-    title: "LinguaAR",
-    description: "AR-based learning platform for Filipino Sign Language with real-time recognition.",
-    tech: ["Flutter", "ML", "Python"],
-    link: "",
+    title: "Service-U",
+    description: "Is a user-friendly Android app connecting users with trusted service providers for various home services, simplifying the process of managing home services and enhancing the overall experience.",
+    tech: ["Kotlin"],
+    link: "https://github.com/vllnvmonik/Serviceu",
     featured: true, // Takes up 2 columns
   },
 ];
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="space-y-4 max-w-lg">
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-foreground">
-                Zeena Myloves
+                Zeena Dela Cruz
               </h1>
               <p className="text-lg text-muted-foreground mt-1 font-medium">
                 UI/UX Designer
