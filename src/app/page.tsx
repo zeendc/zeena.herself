@@ -145,9 +145,6 @@ export default function Home() {
                 PHINMA University of Pangasinan
               </Link>
               <p className="text-xs text-muted-foreground mt-2">2022 — Present</p>
-              <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
-                Software Development, Data Structures, and emerging web technologies.
-              </p>
             </div>
           </div>
 
@@ -159,7 +156,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-1.5">
               {[
-                "Next.js", "TypeScript", "Sui Move", "Tailwind", "React", "Node.js", "Git"
+                "Next.js", "JavaScript", "CSS", "Tailwind", "React", "Node.js", "Git"
               ].map((skill) => (
                 <span key={skill} className="px-2.5 py-1 rounded-md bg-muted text-xs text-foreground border border-border cursor-default">
                   {skill}
