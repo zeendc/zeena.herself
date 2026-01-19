@@ -50,7 +50,7 @@ export default function Home() {
                 Zeena Dela Cruz
               </h1>
               <p className="text-lg text-muted-foreground mt-1 font-medium">
-                UI/UX Designer
+                UI/UX Designer & Front-End Developer
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
